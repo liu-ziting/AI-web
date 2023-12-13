@@ -59,8 +59,10 @@
 }
 
 h2 {
-	font-size: 1.2em !important;
+	font-size: 1.4em !important;
 }
+
+
 
 h2,
 h1,
@@ -69,5 +71,4 @@ h4,
 h5,
 h6 {
 	font-family: 'ALIBABA';
-	font-weight: 400;
 }
