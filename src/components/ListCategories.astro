@@ -2,7 +2,6 @@
 import { getCategories } from '@/utils'
 import Category from '@/components/Category'
 const categories = await getCategories()
-
 const { activeCategory } = Astro.props
 ---
 
@@ -13,6 +12,5 @@ const { activeCategory } = Astro.props
 			<Category name={category} activeCategory={activeCategory} />
 		))
 	}
-
 	<div class='hidden sm:block absolute w-full bottom-0 border-b-2 -z-40 dark:border-gray-600'></div>
 </div>
