@@ -1,2 +1,2 @@
 // List of categories for blog posts
-export const CATEGORIES = ['开发编程', '聊天机器人', '智能助手', '图像处理', '效率助手'] as const
+export const CATEGORIES = ['AI编程', '聊天机器人', 'AI助手', 'AI图像', 'AI效率', 'AI声音', '其他'] as const

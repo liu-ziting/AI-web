@@ -31,6 +31,11 @@
 		src: url(../assets/fonts/Manrope-Regular.woff2) format('woff2');
 	}
 
+	@font-face {
+		font-family: ALIBABA;
+		src: url(../assets/fonts/ALIBABA_PUHUITI.TTF) format('woff2');
+	}
+
 	/* prose styles here */
 	.prose h1,
 	h2,
@@ -38,7 +43,7 @@
 	h4,
 	h5,
 	h6 {
-		@apply text-zinc-800 dark:text-zinc-100   !important;
+		@apply text-zinc-800 dark:text-zinc-100 !important;
 	}
 }
 
@@ -51,4 +56,18 @@
 
 .shadow {
 	box-shadow: -5px 3px 8px 1px rgba(0, 0, 0, 0.12);
+}
+
+h2 {
+	font-size: 1.2em !important;
+}
+
+h2,
+h1,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'ALIBABA';
+	font-weight: 400;
 }
