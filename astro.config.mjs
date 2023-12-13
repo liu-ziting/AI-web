@@ -15,6 +15,9 @@ export default defineConfig({
             wrap: true
         }
     },
+    buildOptions: {
+        out: 'public'
+    },
     integrations: [
         mdx({
             syntaxHighlight: 'shiki',
