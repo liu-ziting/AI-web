@@ -16,7 +16,7 @@ export default defineConfig({
         }
     },
     buildOptions: {
-        out: 'public'
+        out: 'dist'
     },
     integrations: [
         mdx({
