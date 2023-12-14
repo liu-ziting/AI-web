@@ -36,6 +36,11 @@
 		src: url(../assets/fonts/ALIBABA_PUHUITI.TTF) format('woff2');
 	}
 
+	@font-face {
+		font-family: ALIBABA85;
+		src: url(../assets/fonts/Alibaba_PuHuiTi_2.0_55_Regular_85_Bold.TTF) format('woff2');
+	}
+
 	/* prose styles here */
 	.prose h1,
 	h2,
@@ -59,7 +64,7 @@
 }
 
 h2 {
-	font-size: 1.4em !important;
+	font-size: 1.3em !important;
 }
 
 
@@ -70,5 +75,5 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: 'ALIBABA';
+	font-family: 'ALIBABA85';
 }
