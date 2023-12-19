@@ -213,7 +213,7 @@ h6 {
 	--c: #fff;
 	/* text color */
 	background: linear-gradient(90deg, #0000 33%, #fff5, #0000 67%) var(--_p, 100%)/300% no-repeat,
-		#004dff;
+		#FF6154;
 	/* background color */
 	color: #0000;
 	border: none;
