@@ -14,14 +14,14 @@
   ],
   "redirects": [
     {
-      "from": "/src/*",
-      "to": "/:splat",
-      "status": 200
+      "source": "/src/*",
+      "destination": "/:splat",
+      "statusCode": 200
     },
     {
-      "from": "/*",
-      "to": "/",
-      "status": 200
+      "source": "/*",
+      "destination": "/",
+      "statusCode": 200
     }
   ]
 }
