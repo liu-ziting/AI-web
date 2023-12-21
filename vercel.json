@@ -1,8 +1,17 @@
 {
   "version": 2,
-  "build": {
-    "publish": "dist"
-  },
+  "builds": [
+    {
+      "src": "src",
+      "use": "@vercel/static-build"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ],
   "redirects": [
     {
       "from": "/src/*",
