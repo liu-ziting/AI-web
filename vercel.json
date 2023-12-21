@@ -3,13 +3,20 @@
   "builds": [
     {
       "src": "pnpm build",
-      "use": "@vercel/static-build"
+      "use": "@vercel/static"
     }
   ],
   "routes": [
     {
       "src": "/src/(.*)",
       "dest": "/$1"
+    },
+    {
+      "handle": "filesystem"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
     }
   ]
 }
