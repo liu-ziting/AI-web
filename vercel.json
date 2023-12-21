@@ -1,9 +1,9 @@
 {
-    "rewrites": [
+    "version": 2,
+    "routes": [
         {
-            "source": "/src/*",
-            "destination": "/:splat",
-            "status": 200
+            "src": "/src/assets/images/(.*)",
+            "dest": "/assets/images/$1"
         }
     ]
 }
