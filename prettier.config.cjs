@@ -8,7 +8,6 @@ module.exports = {
     jsxSingleQuote: true,
     tabWidth: 2,
     useTabs: true,
-    public: '/src/assets/images/',
     plugins: [require.resolve('prettier-plugin-astro')],
     overrides: [
         {

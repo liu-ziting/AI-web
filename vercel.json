@@ -1,0 +1,9 @@
+{
+    "rewrites": [
+        {
+            "source": "/src/*",
+            "destination": "/:splat",
+            "status": 200
+        }
+    ]
+}
