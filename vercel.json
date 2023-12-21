@@ -4,10 +4,6 @@
         {
             "src": "/src/assets/images/(.*)",
             "dest": "/assets/images/$1"
-        },
-        {
-            "src": "/src/assets/fonts/(.*)",
-            "dest": "/assets/fonts/$1"
         }
     ]
 }
