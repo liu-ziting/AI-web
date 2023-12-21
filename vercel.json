@@ -1,0 +1,11 @@
+{
+  "routes": [
+    {
+      "src": "/src/assets/images/(.*)",
+      "headers": {
+        "cache-control": "public, max-age=31536000, immutable"
+      },
+      "dest": "/src/assets/images/$1"
+    }
+  ]
+}
