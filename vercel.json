@@ -9,6 +9,11 @@
       "from": "/src/*",
       "to": "/:splat",
       "status": 200
+    },
+    {
+      "from": "/*",
+      "to": "/",
+      "status": 200
     }
   ]
 }
