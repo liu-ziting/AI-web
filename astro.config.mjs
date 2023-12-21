@@ -15,6 +15,7 @@ export default defineConfig({
             wrap: true
         }
     },
+    public: '/src/assets/images/',
     buildOptions: {
         out: 'dist'
     },
