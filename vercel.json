@@ -1,22 +1,14 @@
 {
-  "version": 2,
-  "builds": [
+  "build": {
+    "command": "npm run build:vercel",
+    "publish": "dist",
+    "trailingSlash": false
+  },
+  "redirects": [
     {
-      "src": "pnpm build",
-      "use": "@vercel/static"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/src/(.*)",
-      "dest": "/$1"
-    },
-    {
-      "handle": "filesystem"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/index.html"
+      "from": "/src/*",
+      "to": "/:splat",
+      "status": 200
     }
   ]
 }
