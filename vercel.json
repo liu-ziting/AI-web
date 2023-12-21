@@ -2,8 +2,12 @@
     "version": 2,
     "routes": [
         {
-            "src": "/src/assets/(.*)",
-            "dest": "/assets/$1"
+            "src": "/src/assets/images/(.*)",
+            "dest": "/assets/images/$1"
+        },
+        {
+            "src": "/src/assets/fonts/(.*)",
+            "dest": "/assets/fonts/$1"
         }
     ]
 }
