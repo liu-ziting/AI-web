@@ -1,0 +1,24 @@
+on:
+  workflow_dispatch:
+    inputs:
+      job:
+        required: true
+      id:
+        description: 'run identifier'
+        required: false
+jobs:
+  build:
+    name: Digger Workflow
+    runs-on: ubuntu-latest
+    steps:
+      - name: digger run
+        uses: diggerhq/digger@develop
+        with:
+          setup-aws: false
+          disable-locking: false
+          digger-token: ${{ secrets.DIGGER_TOKEN }}
+          digger-hostname: 'https://cloud.digger.dev'
+          digger-organisation: 'liu-ziting'
+        env:
+          GITHUB_CONTEXT: ${{ toJson(github) }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
