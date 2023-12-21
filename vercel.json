@@ -1,11 +1,15 @@
 {
+  "version": 2,
+  "builds": [
+    {
+      "src": "pnpm build",
+      "use": "@vercel/static-build"
+    }
+  ],
   "routes": [
     {
-      "src": "/src/assets/images/(.*)",
-      "headers": {
-        "cache-control": "public, max-age=31536000, immutable"
-      },
-      "dest": "/src/assets/images/$1"
+      "src": "/src/(.*)",
+      "dest": "/$1"
     }
   ]
 }

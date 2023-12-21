@@ -1,7 +1,0 @@
-[build]
-  command = 'pnpm build'
-  trailingSlash = false
-[[redirects]]
-  from = "/src/*"
-  to = "/:splat"
-  status = 200
