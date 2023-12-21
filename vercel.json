@@ -1,8 +1,7 @@
 {
+  "version": 2,
   "build": {
-    "command": "npm run build:vercel",
-    "publish": "dist",
-    "trailingSlash": false
+    "publish": "dist"
   },
   "redirects": [
     {
