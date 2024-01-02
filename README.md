@@ -1,1 +1,1 @@
-# https://aismart.netlify.app/
+# smartai.wtf
