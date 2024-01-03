@@ -1,0 +1,100 @@
+---
+import BaseLayout from '@/layouts/BaseLayout'
+import TitlePage from '@/components/TitlePage'
+import { website } from '@/data/dataList'
+
+import ArrowUp from '@/components/icons/ArrowUp'
+console.log(website)
+---
+
+<BaseLayout title='Other'>
+	<TitlePage title='Other' />
+	<div>
+		{
+			website.length > 0 ? (
+				website.map((data) => {
+					return (
+						<div class='mx-auto '>
+							<h1>{data.title}</h1>
+							<div class='list  grid grid-cols-2 sm:grid-cols-2 md:grid-cols-5  gap-4 mt-3'>
+								{data.list.map((item) => {
+									return (
+										<div class='group cards' key={item.name}>
+											<a href={item.link} target='_blank'>
+												<div class='head'>
+													<div class='flex justify-between items-center'>
+														{item.name}{' '}
+														<span class='mt-[1px] group-hover:rotate-45 transition-transform duration-250 ease-in-out'>
+															{' '}
+															<ArrowUp width='18' height='18' />
+														</span>
+													</div>
+												</div>
+												<div>
+													<p>{item.slogan}</p>
+												</div>
+											</a>
+										</div>
+									)
+								})}
+							</div>
+						</div>
+					)
+				})
+			) : (
+				<span class='text-gray-500'>There are no related posts yet. 😢</span>
+			)
+		}
+	</div>
+
+	<style>
+		h1 {
+			font-size: 16px;
+			font-weight: bold;
+			margin: 10px 0;
+		}
+
+		.list {
+			--background: #333333;
+			.cards {
+				h3 {
+					margin-bottom: 5px;
+				}
+
+				p {
+					font-size: 14px;
+					line-height: 20px;
+					height: 40px;
+					overflow: hidden;
+					text-overflow: ellipsis;
+					display: -webkit-box;
+					-webkit-line-clamp: 2;
+					-webkit-box-orient: vertical;
+					opacity: 0.8;
+					color: var(--tw-prose-headings);
+				}
+
+				& a {
+					border: 1px solid var(--background);
+					padding: 20px;
+					border-radius: 8px;
+					display: grid;
+					align-content: start;
+					text-decoration: none;
+					color: var(--tw-prose-headings);
+					transition: box-shadow 0.2s ease;
+					cursor: pointer;
+					&:hover {
+						box-shadow: 4px 4px #ce9edc;
+					}
+				}
+
+				.head {
+					display: flex;
+					justify-content: space-between;
+					margin-bottom: 10px;
+				}
+			}
+		}
+	</style>
+</BaseLayout>

@@ -5,7 +5,7 @@ const categories = await getCategories()
 const { activeCategory } = Astro.props
 ---
 
-<div class='relative flex flex-wrap min-w-full gap-5'>
+<div class='relative flex flex-wrap min-w-full gap-6'>
 	<Category />
 	{
 		categories.map((category: string) => (
