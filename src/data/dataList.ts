@@ -100,179 +100,6 @@ const website: Web[] = [
             }
         ]
     },
-    // {
-    //     title: 'AI平台',
-    //     list: [
-    //         {
-    //             logo: 'https://ph-files.imgix.net/593894d0-536b-47e6-9a15-cb8afc0159e5.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=64&h=64&fit=crop&dpr=1',
-    //             name: 'Claude',
-    //             link: 'https://claude.ai/',
-    //             slogan: '媲美GPT，简洁易用的AI助手'
-    //         },
-    //         {
-    //             logo: 'https://kimi.moonshot.cn/static/Kimi.3857f0b5.png',
-    //             name: 'Kimi Chat',
-    //             link: 'https://kimi.moonshot.cn/',
-    //             slogan: '由清华大学交叉信息学院提供，支持文件上传，pdf、doc、xlsx、ppt、txt等'
-    //         },
-    //         {
-    //             logo: 'https://llava.hliu.cc/assets/logo-0a070fcf.svg',
-    //             name: 'LLaVA',
-    //             link: 'https://llava.hliu.cc/',
-    //             slogan: '大语言视觉助手'
-    //         },
-    //         {
-    //             logo: '',
-    //             name: 'Bard',
-    //             link: 'https://bard.google.com/chat',
-    //             slogan: '谷歌人工智能助手'
-    //         },
-    //         {
-    //             logo: '',
-    //             name: 'Copilot',
-    //             link: 'https://copilot.microsoft.com/',
-    //             slogan: '微软人工智能助手'
-    //         },
-    //         {
-    //             logo: 'https://app.invictai.io/_next/image?url=https%3A%2F%2Fapi.invictai.io%2Fapi%2Fcommunity-template-images%2F1700492778406-809601882.png&w=256&q=75',
-    //             name: 'InvictaAI',
-    //             link: 'https://app.invictai.io/',
-    //             slogan: '个性化AI助手，能够根据用户需求进行定制化'
-    //         },
-    //         {
-    //             logo: 'https://chat.xlang.ai/_next/static/media/logo_color.1eecbbbd.svg',
-    //             name: 'xlang',
-    //             link: 'https://chat.xlang.ai/zh',
-    //             slogan: 'XLang实验室提供大模型数据助手'
-    //         },
-    //         {
-    //             logo: 'https://llava.hliu.cc/assets/logo-0a070fcf.svg',
-    //             name: 'v0.dev',
-    //             link: 'https://v0.dev/',
-    //             slogan: 'Vercel提供支持的AI生成页面'
-    //         },
-    //         {
-    //             logo: 'https://function12.io/assets/images/header/logo.svg',
-    //             name: 'Function12',
-    //             link: 'https://function12.io',
-    //             slogan: '可导入Figma生成Html代码'
-    //         },
-    //         {
-    //             logo: '',
-    //             name: 'Devwares',
-    //             link: 'https://windframe.devwares.com',
-    //             slogan: '在线TailwindCSS构建工具！'
-    //         },
-    //         {
-    //             logo: '',
-    //             name: 'SaasAiTools',
-    //             link: 'https://saasaitools.com/',
-    //             slogan: '发现您的下一个生成人工智能工具'
-    //         },
-    //         {
-    //             logo: 'https://seekai.tools/static/media/new_logo.829b4ad1dcd3942080932c3c4c30d090.svg',
-    //             name: 'Seekai',
-    //             link: 'https://seekai.tools/ai-tools',
-    //             slogan: '轻松发现最佳AI工具'
-    //         },
-    //         {
-    //             logo: 'https://top.aibase.com/_static/img/Frame@2x.eddfa3e.png',
-    //             name: 'Aibase',
-    //             link: 'https://top.aibase.com',
-    //             slogan: '最佳人工智能产品和服务，每日持续更新'
-    //         },
-    //         {
-    //             logo: '',
-    //             name: 'Autodraw',
-    //             link: 'https://www.autodraw.com/',
-    //             slogan: '根据你的随意涂画生成简笔画'
-    //         },
-    //         {
-    //             logo: '',
-    //             name: 'Freepik',
-    //             link: 'https://www.freepik.com/pikaso?ref=producthunt&sign-up=google',
-    //             slogan: '实时AI图像生成器'
-    //         },
-    //         {
-    //             logo: '',
-    //             name: 'Cgdream',
-    //             link: 'https://cgdream.ai/my-images',
-    //             slogan: '免费Ai生成图片'
-    //         },
-    //         {
-    //             logo: 'https://www.shejibaozang.com/wp-content/uploads/thumb/2023/05/fill_w60_h60_g0_mark_1684291596-%E4%B8%8B%E8%BD%BD-2.png',
-    //             name: 'Perplexity',
-    //             link: 'https://www.perplexity.ai/',
-    //             slogan: '智能总结并展示信息源'
-    //         },
-    //         {
-    //             logo: '',
-    //             name: 'Mymap',
-    //             link: 'https://www.mymap.ai/mindmap/?ref=producthunt',
-    //             slogan: 'Ai生成思维导图'
-    //         },
-    //         {
-    //             logo: '',
-    //             name: 'Pi.ai',
-    //             link: 'https://pi.ai/talk',
-    //             slogan: '深度学习和自然语言处理来提供你有用的回答和建议'
-    //         },
-    //         {
-    //             logo: 'https://magicwrite.netlify.app/logo.png',
-    //             name: 'Magicwrite',
-    //             link: 'https://magicwrite.netlify.app/?ref=producthunt',
-    //             slogan: '免费的人工智能作家，无需注册'
-    //         },
-    //         {
-    //             logo: 'https://faucet.openkey.cloud/_next/image?url=%2Flogo.png&w=256&q=75',
-    //             name: 'ChatGPTAPI水龙头',
-    //             link: 'https://faucet.openkey.cloud/',
-    //             slogan: '每24小时可领取一个$1.00令牌用于开发测试AI产品.'
-    //         },
-    //         {
-    //             logo: 'https://www.ttson.cn/assets/laba.cdedf554.png',
-    //             name: 'TTS-Online',
-    //             link: 'https://www.ttson.cn/',
-    //             slogan: '免费文字转语音，3000以内，支持多类型人声'
-    //         },
-    //         {
-    //             logo: 'https://www.ttson.cn/assets/laba.cdedf554.png',
-    //             name: 'ttson',
-    //             link: 'https://acgn.ttson.cn/',
-    //             slogan: '免费文字转语音，原神、英雄联盟、星穹铁道和日漫1000+角色'
-    //         },
-    //         {
-    //             logo: '',
-    //             name: 'huggingface',
-    //             link: 'https://huggingface.co/',
-    //             slogan: '人工智能社区,机器学习社区在模型数据集和应用程序上进行协作的平台'
-    //         },
-    //         {
-    //             logo: '',
-    //             name: 'devv',
-    //             link: 'https://devv.ai/zh',
-    //             slogan: '最懂程序员的新一代AI搜索引擎'
-    //         },
-    //         {
-    //             logo: '',
-    //             name: 'mylens',
-    //             link: 'https://mylens.ai/',
-    //             slogan: '一句话让AI生成发展史'
-    //         },
-    //         {
-    //             logo: '',
-    //             name: 'Graphy',
-    //             link: 'https://graphy.app/',
-    //             slogan: '通过数据创建精美的多类型的交互式图表'
-    //         },
-    //         {
-    //             logo: '',
-    //             name: '度加创作工具',
-    //             link: 'https://aigc.baidu.com/make',
-    //             slogan: '通过AI能力降低内容生成门槛，提升创作效率'
-    //         }
-    //     ]
-    // },
     {
         title: '图片/视频处理',
         list: [
@@ -355,6 +182,11 @@ const website: Web[] = [
                 name: 'VideoOnline',
                 link: 'https://compress-video-online.com/',
                 slogan: '在线、免费的视频压缩工具'
+            },
+            {
+                name: 'Ezyzip',
+                link: 'https://www.ezyzip.com/',
+                slogan: '压缩音视频文件至指定的大小或百分比'
             }
         ]
     },
@@ -454,6 +286,111 @@ const website: Web[] = [
         ]
     },
     {
+        title: '下载',
+        list: [
+            {
+                name: 'Xitongku',
+                link: 'https://www.xitongku.com/',
+                slogan: '提供丰富的电脑系统和office软件下载'
+            },
+            {
+                name: 'Ripyoutube',
+                link: 'https://ripyoutube.com/zh-cn-1',
+                slogan: '免费的youtube视频下載器，支持转换mp3,mp4格式'
+            },
+            {
+                name: '9xbuddy',
+                link: 'https://9xbuddy.in/zh',
+                slogan: '免费的多平台视频提取'
+            },
+            {
+                name: 'Dlpanda',
+                link: 'https://dlpanda.com/zh-CN/xiaohongshu',
+                slogan: '抖音、小红书、X、Ins、Bilibili等网站视频解析无水印下载'
+            },
+            {
+                name: 'Snapinsta',
+                link: 'https://snapinsta.app/',
+                slogan: 'Instagram视频、照片下载器'
+            },
+            {
+                name: 'Downsub',
+                link: 'https://downsub.com/',
+                slogan: '多个平台下载字幕，包括YouTube、Viki、Viu、Kocowa、Wetv等'
+            },
+            {
+                name: 'Vget',
+                link: 'https://www.vget.online/',
+                slogan: '免费下载和转换YouTube视频和音频'
+            },
+            {
+                name: '短视频去水印解析',
+                link: 'https://video.ciding.cc/',
+                slogan: '抖音、皮皮虾、最右等去水印'
+            },
+            {
+                name: 'Downsub',
+                link: 'https://doubledouble.top/',
+                slogan: '音乐下载平台，可以直接从Spotify、Amazon Music、Soundcloud、Qobuz、Deezer、Tidal或Napster免费下载音乐'
+            },
+            {
+                name: 'Subhd',
+                link: 'https://subhd.tv/',
+                slogan: '电影字幕下载的平台'
+            },
+            {
+                name: 'BT之家',
+                link: 'https://www.1lou.me/',
+                slogan: '免费的BT种子磁力资源下载站'
+            },
+            {
+                name: 'FDOWN',
+                link: 'https://fdown.net/',
+                slogan: '在线免费下载Facebook高清视频的网站'
+            }
+        ]
+    },
+    {
+        title: '文件转换',
+        list: [
+            {
+                name: 'FreePDFConvert',
+                link: 'https://www.freepdfconvert.com/zh-cn',
+                slogan: '在线的PDF转换器，它支持将各种文件格式如Word、Excel、PowerPoint、JPG等转换为PDF，反之'
+            },
+            {
+                name: 'Convertio',
+                link: 'https://convertio.co/zh/',
+                slogan: '在线转换工具，支持超过300种文件格式相互转换'
+            },
+            {
+                name: '腾讯帮小忙',
+                link: 'https://tool.browser.qq.com/',
+                slogan: '免费在线工具箱'
+            },
+            {
+                name: '在线超级转换工具',
+                link: 'https://www.wdku.net/',
+                slogan: '在线超级转换工具，简单实用的多功能转换利器'
+            },
+            {
+                name: '在线格式转换',
+                link: 'https://www.alltoall.net/',
+                slogan: '免费、快速便捷的文件转换利器'
+            },
+            {
+                name: '视频转音频',
+                link: 'https://offmp3.com/zh-1de',
+                slogan: '在线视频到MP3转换器'
+            },
+            {
+                name: 'pdf工具集',
+                link: 'https://tools.pdf24.org/zh/',
+                slogan: '免费且易于使用的在线PDF工具'
+            }
+        ]
+    },
+    {
         title: '其他',
         list: [
             {
@@ -471,6 +408,7 @@ const website: Web[] = [
                 link: 'https://carbon.now.sh/?bg=rgba(171%2C%20184%2C%20195%2C%201)&t=seti&wt=none&l=javascript&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=48px&ph=32px&ln=false&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&ts=false',
                 slogan: '代码片段分享图片制作'
             },
+
             {
                 name: 'Msdmanuals',
                 link: 'https://www.msdmanuals.cn/?ruleredirectid=14',
@@ -487,24 +425,10 @@ const website: Web[] = [
                 slogan: '这是一款最小的、无干扰的聊天应用程序'
             },
             {
-                name: 'Xitongku',
-                link: 'https://www.xitongku.com/',
-                slogan: '提供丰富的电脑系统和office软件下载'
-            },
-            {
-                name: 'Ripyoutube',
-                link: 'https://ripyoutube.com/zh-cn-1',
-                slogan: '免费的youtube视频下載器，支持转换mp3,mp4格式'
-            },
-            {
-                name: 'Dlpanda',
-                link: 'https://dlpanda.com/zh-CN/xiaohongshu',
-                slogan: '抖音、小红书、X、Ins、Bilibili等网站视频解析无水印下载'
-            },
-            {
-                name: '腾讯帮小忙',
-                link: 'https://tool.browser.qq.com/',
-                slogan: '免费在线工具箱'
+                logo: 'https://faucet.openkey.cloud/_next/image?url=%2Flogo.png&w=256&q=75',
+                name: 'ChatGPTAPI水龙头',
+                link: 'https://faucet.openkey.cloud/',
+                slogan: '每24小时可领取一个$1.00令牌用于开发测试AI产品.'
             },
             {
                 name: 'sms-activate',
@@ -515,6 +439,11 @@ const website: Web[] = [
                 name: 'Liber3',
                 link: 'https://liber3.eth.limo/',
                 slogan: '电子书搜索引擎适用于ENS和IPFS'
+            },
+            {
+                name: '谷歌插件下载',
+                link: 'https://www.crxsoso.com/',
+                slogan: '谷歌浏览器扩展插件下载'
             }
         ]
     }
