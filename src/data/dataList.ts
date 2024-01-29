@@ -282,6 +282,11 @@ const website: Web[] = [
                 name: 'Texturer',
                 link: 'http://texturer.com/',
                 slogan: '3D建模纹理特效素材'
+            },
+            {
+                name: 'pngdirs',
+                link: 'https://www.pngdirs.com/',
+                slogan: '10万+PNG图片素材免费下载，透明背景图片，无需抠图'
             }
         ]
     },
@@ -387,6 +392,11 @@ const website: Web[] = [
                 name: 'pdf工具集',
                 link: 'https://tools.pdf24.org/zh/',
                 slogan: '免费且易于使用的在线PDF工具'
+            },
+            {
+                name: 'pdf2docx',
+                link: 'https://www.pdf2docx.cn/pdf/pdf2word',
+                slogan: '免费pdf转换器'
             }
         ]
     },
