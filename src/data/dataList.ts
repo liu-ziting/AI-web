@@ -239,6 +239,11 @@ const website: Web[] = [
         title: '图标/动画/插画',
         list: [
             {
+                name: 'Lucide',
+                link: 'https://lucide.dev/icons/',
+                slogan: '共有1400+图标，设计风格统一，有react、vue等npm包，可在线检索和下载'
+            },
+            {
                 name: 'Heroicons',
                 link: 'https://heroicons.com/',
                 slogan: 'SVG图标库，来源于Tailwind CSS'
