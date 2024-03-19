@@ -1,0 +1,103 @@
+---
+heroImage: /src/assets/images/微信截图_20240319155325.png
+category: 其他
+description: Ollama是一个允许用户在本地启动并运行大型语言模型，它提供了一个简单易用的内容生成接口，类似于OpenAI，但无需开发经验即可直接与模型进行交互
+pubDate: 2024-03-18T16:00:00.000Z
+tags:
+    - 本地部署大模型
+title: ollama
+---
+
+# Ollama简介
+
+Ollama是一个创新的平台，它允许用户在本地启动并运行大型语言模型。它提供了一个简单易用的内容生成接口，类似于OpenAI，但无需开发经验即可直接与模型进行交互。Ollama支持热切换模型，为用户提供了灵活性和多样性。
+
+## 安装Ollama
+
+要安装Ollama，请访问官方网站的下载页面：[Ollama下载页面](https://ollama.com/download)。在这里，你可以根据你的操作系统选择合适的版本进行下载，目前，Ollama支持macOS 11 Big Sur或更高版本。
+
+### macOS用户
+
+对于macOS用户，可以直接点击下载链接获取Ollama的压缩包：[Download for macOS](https://ollama.com/download/Ollama-darwin.zip)。
+
+### Windows用户
+
+对于Windows用户，可以参照上述链接中的步骤进行安装，安装过程中，你可以通过注册来接收新更新的通知。
+
+## 使用Ollama
+
+安装完成后，你可以通过命令行查看Ollama的可用命令。例如，在Windows的PowerShell中，输入`ollama`即可查看帮助信息和可用命令。
+
+```
+PS C:\Users\Admin> ollama
+Usage:
+  ollama [flags]
+  ollama [command]
+
+Available Commands:
+  serve       Start ollama
+  create      Create a model from a Modelfile
+  show        Show information for a model
+  run         Run a model
+  pull        Pull a model from a registry
+  push        Push a model to a registry
+  list        List models
+  cp          Copy a model
+  rm          Remove a model
+  help        Help about any command
+
+Flags:
+  -h, --help      help for ollama
+  -v, --version   Show version information
+
+Use "ollama [command] --help" for more information about a command.
+PS C:\Users\Admin>
+```
+
+## 下载和使用大型模型
+
+Ollama的模型库提供了多种大型语言模型供用户选择。你可以通过访问[Ollama模型库](https://ollama.com/library)来找到并下载你需要的模型。
+
+### 查看已安装模型
+
+安装模型后，使用`ollama list`命令可以查看已安装的模型列表。
+
+```
+PS C:\Users\Admin> ollama list
+NAME            ID              SIZE    MODIFIED
+gemma:2b        b50d6c999e59    1.7 GB  About an hour ago
+llama2:latest   78e26419b446    3.8 GB  9 hours ago
+qwen:latest     d53d04290064    2.3 GB  8 hours ago
+PS C:\Users\Admin>
+```
+
+### 运行模型
+
+通过`ollama run`命令，你可以运行特定的模型。例如，`ollama run qwen`将启动qwen模型。
+
+## OpenWebUI简介
+
+[OpenWebUI](https://openwebui.com/)是一个可扩展、功能丰富且用户友好的自托管WebUI，它支持完全离线操作，并兼容Ollama和OpenAI的API。这为用户提供了一个可视化的界面，使得与大型语言模型的交互更加直观和便捷。
+
+### 安装 Openwebui
+
+-   如果您的计算机上有 Ollama，请使用以下命令：
+
+```docker
+docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:main
+```
+
+-   **如果 Ollama 位于不同的服务器上**，请使用以下命令：
+-   要连接到另一台服务器上的 Ollama，请将 更改`OLLAMA_BASE_URL`为服务器的 URL：
+
+```docker
+docker run -d -p 3000:8080 -e OLLAMA_BASE_URL=https://example.com -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:main
+```
+
+-   安装完成后，您可以通过 [http://localhost:3000](http://localhost:3000/) 访问OpenWebUI
+
+这个时候会发现【Select a model】可以选择我们刚刚下载好的模型
+
+这样我们就有了一个类似GPT的可视化界面
+
+并且他还可以一次性加入多个模型，一起对话对比使用
