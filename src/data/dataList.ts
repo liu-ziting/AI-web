@@ -141,15 +141,15 @@ const website: Web[] = [
                 tags: 'GPT3.5'
             },
             {
-                name: 'betai55|免登录',
-                link: 'https://b9.betai55.uk/#/',
-                slogan: '无限制的GPT-3.5 服务，密码：3.5forfree24',
-                tags: 'GPT3.5'
-            },
-            {
                 name: 'xhlgpt|免登录',
                 link: 'https://xhlgpt.com/',
                 slogan: '多种AI模型汇聚平台',
+                tags: 'GPT3.5'
+            },
+            {
+                name: 'betai55|登录',
+                link: 'https://b9.betai55.uk/#/',
+                slogan: '密码：3.5forfree24',
                 tags: 'GPT3.5'
             },
             {
