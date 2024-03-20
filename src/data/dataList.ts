@@ -81,6 +81,23 @@ const website: Web[] = [
                 tags: 'GPT3.5、Claude、Gemma'
             },
             {
+                name: 'pi|免登录',
+                link: 'https://pi.ai/talk',
+                slogan: '深度学习和自然语言处理来提供你有用的回答和建议',
+                tags: 'AI对话'
+            },
+            {
+                name: 'ollama|离线',
+                link: '/post/ollama/',
+                slogan: '本地部署大模型，可本地离线使用',
+                tags: 'Gemma、Llama2、Qwen'
+            }
+        ]
+    },
+    {
+        title: '搜索AI',
+        list: [
+            {
                 name: 'metaso|免登录',
                 link: 'https://metaso.cn/',
                 slogan: '秘塔AI搜索，没有广告，直达结果',
@@ -97,13 +114,12 @@ const website: Web[] = [
                 link: 'https://www.perplexity.ai/',
                 slogan: '智能总结并展示信息源',
                 tags: 'AI搜索'
-            },
-            {
-                name: 'pi|免登录',
-                link: 'https://pi.ai/talk',
-                slogan: '深度学习和自然语言处理来提供你有用的回答和建议',
-                tags: 'AI对话'
-            },
+            }
+        ]
+    },
+    {
+        title: '国产AI',
+        list: [
             {
                 name: 'kimi|免登录',
                 link: 'https://kimi.moonshot.cn/',
@@ -111,10 +127,16 @@ const website: Web[] = [
                 tags: 'AI对话、文件解析、联网搜索'
             },
             {
-                name: 'ollama|离线',
-                link: '/post/ollama/',
-                slogan: '本地部署大模型，可本地离线使用',
-                tags: 'Gemma、Llama2、Qwen'
+                name: '智谱清言|登录',
+                link: 'https://chatglm.cn/main/detail',
+                slogan: '基于GLM模型开发，支持多轮对话，具备内容创作、信息归纳总结等',
+                tags: 'AI对话、文件解析、联网搜索'
+            },
+            {
+                name: '扣子|登录',
+                link: 'https://www.coze.com/',
+                slogan: '国产版本coze，云雀大模型',
+                tags: 'AI对话、定制bot、发布平台'
             }
         ]
     },
