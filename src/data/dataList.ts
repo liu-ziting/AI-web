@@ -420,6 +420,11 @@ const website: Web[] = [
                 name: 'Animista',
                 link: 'https://animista.net/play/basic/flip-scale-2',
                 slogan: 'cssAnimation动画在线编辑复制'
+            },
+            {
+                name: 'Uutool',
+                link: 'https://uutool.cn/',
+                slogan: '在线工具集合'
             }
         ]
     },
@@ -616,6 +621,11 @@ const website: Web[] = [
     {
         title: '其他',
         list: [
+            {
+                name: '破解工具集合',
+                link: 'https://l0te9vhttut.feishu.cn/wiki/WfyGwfuMhiPvEQkGw6ycNPUKnAd?from=from_copylink',
+                slogan: '手机端安卓破解软件以及部分电脑端破解应用'
+            },
             {
                 name: 'Raylink',
                 link: 'https://www.raylink.live/',
