@@ -39,16 +39,16 @@ const website: Web[] = [
                 tags: 'GPT3.5、Geminipro、Sd'
             },
             {
+                name: 'bbyadm|免登录',
+                link: 'https://bbyadm.aitianhu1.top/',
+                slogan: '多模型,支持 GPT4 文件',
+                tags: 'GPT3.5、Geminipro、Claude'
+            },
+            {
                 name: 'caifree|免登录',
                 link: 'https://ai.caifree.com/',
                 slogan: 'GPT镜像站',
                 tags: 'GPT3.5、GPT4'
-            },
-            {
-                name: 'kulayu|免登录',
-                link: 'https://www.kulayu.com/chatgpt.html',
-                slogan: '多平台汇聚',
-                tags: 'GPT3.5、Geminipro'
             },
             {
                 name: 'sharedchat|免登录',
@@ -81,6 +81,30 @@ const website: Web[] = [
                 tags: 'GPT3.5、Claude、Gemma'
             },
             {
+                name: 'poe|登录',
+                link: 'https://poe.monster/',
+                slogan: 'poe国产免费版本',
+                tags: 'GPT3.5、GPT4、Claude、Gemma'
+            },
+            {
+                name: 'gpt4fr|登录',
+                link: 'https://2cc.gpt4fr.ee/',
+                slogan: '免费GPT3.5、限量GPT4',
+                tags: 'GPT3.5、GPT4'
+            },
+            {
+                name: 'chatgot|登录|',
+                link: 'https://start.chatgot.io/',
+                slogan: '免费使用chatgpt3.5等',
+                tags: 'GPT3.5、GPT4'
+            },
+            {
+                name: 'xiu|登录|魔法',
+                link: 'https://www.xiu.ai/',
+                slogan: '免费使用chatgpt3.5等',
+                tags: 'GPT3.5、GPT4'
+            },
+            {
                 name: 'pi|免登录',
                 link: 'https://pi.ai/talk',
                 slogan: '深度学习和自然语言处理来提供你有用的回答和建议',
@@ -91,6 +115,48 @@ const website: Web[] = [
                 link: '/post/ollama/',
                 slogan: '本地部署大模型，可本地离线使用',
                 tags: 'Gemma、Llama2、Qwen'
+            },
+            {
+                name: 'ichat|免登录',
+                link: 'https://chat.letdata.net/ichat',
+                slogan: '无限制的GPT-3.5 服务',
+                tags: 'GPT3.5'
+            },
+            {
+                name: 'chatforai|免登录',
+                link: 'https://chatforai.store/',
+                slogan: '无限制的GPT-3.5 服务',
+                tags: 'GPT3.5'
+            },
+            {
+                name: 'ideaiai|免登录',
+                link: 'https://ideaiai.com/',
+                slogan: '无限制的GPT-3.5 服务',
+                tags: 'GPT3.5'
+            },
+            {
+                name: 'chatgpt|免登录',
+                link: 'https://codenews.cc/chatgpt',
+                slogan: '无限制的GPT-3.5 服务',
+                tags: 'GPT3.5'
+            },
+            {
+                name: 'betai55|免登录',
+                link: 'https://b9.betai55.uk/#/',
+                slogan: '无限制的GPT-3.5 服务，密码：3.5forfree24',
+                tags: 'GPT3.5'
+            },
+            {
+                name: 'xhlgpt|免登录',
+                link: 'https://xhlgpt.com/',
+                slogan: '多种AI模型汇聚平台',
+                tags: 'GPT3.5'
+            },
+            {
+                name: 'kulayu|免登录',
+                link: 'https://www.kulayu.com/chatgpt.html',
+                slogan: '多平台汇聚',
+                tags: 'GPT3.5、Geminipro'
             }
         ]
     },
@@ -104,6 +170,12 @@ const website: Web[] = [
                 tags: 'AI搜索、学术'
             },
             {
+                name: 'aoyo|免登录',
+                link: 'https://aoyo.ai/',
+                slogan: '搜索+AI，智能搜索引擎',
+                tags: 'AI搜索'
+            },
+            {
                 name: 'devv|魔法',
                 link: 'https://devv.ai/zh',
                 slogan: '最懂程序员的新一代 AI 搜索引擎',
@@ -114,6 +186,12 @@ const website: Web[] = [
                 link: 'https://www.perplexity.ai/',
                 slogan: '智能总结并展示信息源',
                 tags: 'AI搜索'
+            },
+            {
+                name: 'phind|魔法',
+                link: 'https://www.phind.com/',
+                slogan: '获得所有技术问题的即时答案、解释和示例',
+                tags: 'AI搜索'
             }
         ]
     },
@@ -121,7 +199,7 @@ const website: Web[] = [
         title: '国产AI',
         list: [
             {
-                name: 'kimi|免登录',
+                name: 'kimi|登录',
                 link: 'https://kimi.moonshot.cn/',
                 slogan: '国产最强AI对话，支持文件上传，互联网搜索',
                 tags: 'AI对话、文件解析、联网搜索'
