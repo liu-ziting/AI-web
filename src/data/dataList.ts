@@ -2,6 +2,7 @@ interface WebItem {
     name: string
     link: string
     slogan: string
+    tags: string[]
 }
 
 interface Web {
@@ -10,6 +11,113 @@ interface Web {
 }
 
 const website: Web[] = [
+    {
+        title: '免费AI',
+        list: [
+            {
+                name: 'coze|登录|魔法',
+                link: 'https://www.coze.com/',
+                slogan: '最强白嫖GPT4、定制bot',
+                tags: 'GPT3.5、GPT4'
+            },
+            {
+                name: 'Aichatos|免登录',
+                link: 'https://chat18.aichatos.xyz/',
+                slogan: '长期稳定免费gpt',
+                tags: 'GPT-3.5'
+            },
+            {
+                name: 'Zaiwen|登录',
+                link: 'https://www.zaiwen.top/',
+                slogan: 'AI、绘画、检索、文档、思维导图',
+                tags: 'GPT3.5、GPT4、Claude、Gemini'
+            },
+            {
+                name: 'CFAIWeb|免登录',
+                link: 'https://ai.jaze.top/',
+                slogan: 'AI问答对话、绘画、翻译',
+                tags: 'GPT3.5、Geminipro、Sd'
+            },
+            {
+                name: 'caifree|免登录',
+                link: 'https://ai.caifree.com/',
+                slogan: 'GPT镜像站',
+                tags: 'GPT3.5、GPT4'
+            },
+            {
+                name: 'kulayu|免登录',
+                link: 'https://www.kulayu.com/chatgpt.html',
+                slogan: '多平台汇聚',
+                tags: 'GPT3.5、Geminipro'
+            },
+            {
+                name: 'sharedchat|免登录',
+                link: 'https://sharedchat.cn/shared.html',
+                slogan: '无需账号密码，免魔法登陆，共享账号',
+                tags: 'GPT3.5、GPT4'
+            },
+            {
+                name: 'freegpts|免登录',
+                link: 'https://share.freegpts.org/list',
+                slogan: '无需账号密码，免魔法登陆，共享账号',
+                tags: 'GPT3.5、GPT4'
+            },
+            {
+                name: 'topai|免登录',
+                link: 'https://home.topai.vip/',
+                slogan: '无需账号密码，免魔法登陆，共享账号',
+                tags: 'GPT3.5、GPT4'
+            },
+            {
+                name: 'aitopk|免登录',
+                link: 'https://aitopk.com/list',
+                slogan: '无需账号密码，免魔法登陆，共享账号',
+                tags: 'GPT3.5、GPT4'
+            },
+            {
+                name: 'poe|登录|魔法',
+                link: 'https://poe.com/chats',
+                slogan: '免费GPT3、Claude-3-Haiku等，不付费也可',
+                tags: 'GPT3.5、Claude、Gemma'
+            },
+            {
+                name: 'metaso|免登录',
+                link: 'https://metaso.cn/',
+                slogan: '秘塔AI搜索，没有广告，直达结果',
+                tags: 'AI搜索、学术'
+            },
+            {
+                name: 'devv|魔法',
+                link: 'https://devv.ai/zh',
+                slogan: '最懂程序员的新一代 AI 搜索引擎',
+                tags: 'AI搜索'
+            },
+            {
+                name: 'perplexity|魔法',
+                link: 'https://www.perplexity.ai/',
+                slogan: '智能总结并展示信息源',
+                tags: 'AI搜索'
+            },
+            {
+                name: 'pi|免登录',
+                link: 'https://pi.ai/talk',
+                slogan: '深度学习和自然语言处理来提供你有用的回答和建议',
+                tags: 'AI对话'
+            },
+            {
+                name: 'kimi|免登录',
+                link: 'https://kimi.moonshot.cn/',
+                slogan: '国产最强AI对话，支持文件上传，互联网搜索',
+                tags: 'AI对话、文件解析、联网搜索'
+            },
+            {
+                name: 'ollama|离线',
+                link: '/post/ollama/',
+                slogan: '本地部署大模型，可本地离线使用',
+                tags: 'Gemma、Llama2、Qwen'
+            }
+        ]
+    },
     {
         title: '部署平台',
         list: [

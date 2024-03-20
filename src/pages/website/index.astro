@@ -5,8 +5,8 @@ import { website } from '@/data/dataList'
 import ArrowUp from '@/components/icons/ArrowUp'
 ---
 
-<BaseLayout title='Other'>
-	<TitlePage title='Other' />
+<BaseLayout title='Website'>
+	<TitlePage title='Website' />
 	<div>
 		{
 			website.length > 0 ? (
@@ -30,6 +30,9 @@ import ArrowUp from '@/components/icons/ArrowUp'
 												</div>
 												<div>
 													<p>{item.slogan}</p>
+												</div>
+												<div class='bottom-tags'>
+													<span class='tag'>{item.tags}</span>
 												</div>
 											</a>
 										</div>
@@ -91,6 +94,14 @@ import ArrowUp from '@/components/icons/ArrowUp'
 					display: flex;
 					justify-content: space-between;
 					margin-bottom: 10px;
+				}
+				.bottom-tags {
+					margin-top: 12px;
+					span {
+						font-size: 10px;
+						margin-right: 10px;
+						padding: 2px 3px;
+					}
 				}
 			}
 		}
