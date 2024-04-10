@@ -27,10 +27,10 @@ const website: Web[] = [
                 tags: 'GPT-3.5'
             },
             {
-                name: 'Poe|免登录',
-                link: 'https://poe.monster',
-                slogan: '中国版Poe',
-                tags: 'GPT3.5、GPT4、Claude'
+                name: 'poe|登录',
+                link: 'https://poe.monster/',
+                slogan: 'poe国产免费版本',
+                tags: 'GPT3.5、GPT4、Claude、Gemma'
             },
             {
                 name: 'Aichatos|免登录',
@@ -85,18 +85,6 @@ const website: Web[] = [
                 link: 'https://aitopk.com/list',
                 slogan: '无需账号密码，免魔法登陆，共享账号',
                 tags: 'GPT3.5、GPT4'
-            },
-            {
-                name: 'poe|登录|魔法',
-                link: 'https://poe.com/chats',
-                slogan: '免费GPT3、Claude-3-Haiku等，不付费也可',
-                tags: 'GPT3.5、Claude、Gemma'
-            },
-            {
-                name: 'poe|登录',
-                link: 'https://poe.monster/',
-                slogan: 'poe国产免费版本',
-                tags: 'GPT3.5、GPT4、Claude、Gemma'
             },
             {
                 name: 'gpt4fr|登录',
