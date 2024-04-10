@@ -21,6 +21,18 @@ const website: Web[] = [
                 tags: 'GPT3.5、GPT4'
             },
             {
+                name: 'Chatforai|免登录',
+                link: 'https://chatforai.store/',
+                slogan: '免费gpt3.5',
+                tags: 'GPT-3.5'
+            },
+            {
+                name: 'Poe|免登录',
+                link: 'https://poe.monster',
+                slogan: '中国版Poe',
+                tags: 'GPT3.5、Claude、Gemma'
+            },
+            {
                 name: 'Aichatos|免登录',
                 link: 'https://chat18.aichatos.xyz/',
                 slogan: '长期稳定免费gpt',
@@ -93,7 +105,7 @@ const website: Web[] = [
                 tags: 'GPT3.5、GPT4'
             },
             {
-                name: 'chatgot|登录|',
+                name: 'chatgot|登录',
                 link: 'https://start.chatgot.io/',
                 slogan: '免费使用chatgpt3.5等',
                 tags: 'GPT3.5、GPT4'
