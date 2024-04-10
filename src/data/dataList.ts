@@ -30,7 +30,7 @@ const website: Web[] = [
                 name: 'Poe|免登录',
                 link: 'https://poe.monster',
                 slogan: '中国版Poe',
-                tags: 'GPT3.5、Claude、Gemma'
+                tags: 'GPT3.5、GPT4、Claude'
             },
             {
                 name: 'Aichatos|免登录',
