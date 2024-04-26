@@ -157,6 +157,12 @@ const website: Web[] = [
                 link: 'https://www.kulayu.com/chatgpt.html',
                 slogan: '多平台汇聚',
                 tags: 'GPT3.5、Geminipro'
+            },
+            {
+                name: 'llama3|免登录',
+                link: 'https://llama3.replicate.dev/',
+                slogan: 'llama370b、8b体验',
+                tags: 'llama3'
             }
         ]
     },
