@@ -87,6 +87,12 @@ const website: Web[] = [
                 tags: 'GPT3.5、GPT4'
             },
             {
+                name: 'AI Tools Radar',
+                link: 'https://aitoolsradar.com',
+                slogan: 'AI工具发现、产品对比、行业资讯和每日Newsletter',
+                tags: 'AI工具、AI导航、AI资讯'
+            },
+            {
                 name: 'gpt4fr|登录',
                 link: 'https://2cc.gpt4fr.ee/',
                 slogan: '免费GPT3.5、限量GPT4',
